@@ -9,8 +9,17 @@ function checkLoginState() {
                   }
               });
               FB.api('/me', function(response) {
-                  document.getElementById("profilname").innerHTML = response.name;
+//                  document.getElementById("profilname").innerHTML = response.name;
               });
+              getPhotos();
+//              FB.api(
+//                "/me/friendlists",
+//                function (friends) {
+//                    if (friends && !friends.error) {
+//                        console.log(friends);
+//                    }
+//                }
+//            );
           } else {
               // not log in Facebook
               //change photo profil

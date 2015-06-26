@@ -419,4 +419,73 @@ nav .drop-down li:first-child a:after {
 }
 
 
+#actions {
+	height: 2em;
+}
+#actions a {
+	float: right;
+	height: 2em;
+	line-height: 2;
+	padding: 0 1em;
+	color: #fff;
+	text-decoration: none;
+	background: #000;
+}
+
+
+#products {
+	margin: 1.5em 0;
+	transition: all 500ms ease-in;
+}
+
+#products.resize {
+	padding-right: 32%;
+}
+
+#products.resize ul li {
+	width: 48%;
+}
+
+#products ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+}
+
+#products li {
+	float: left;
+	width: 31%;
+	display: block;
+	margin: 0 1% 1em 1%;
+	transition: all 500ms ease-in;
+}
+
+#products figure {
+	margin: 0;
+	width: 100%;
+}
+
+#products figure img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+#products li figcaption {
+	margin: 0;
+	padding: 0.3em;
+	background: #000;
+	color: #fff;
+	text-align: center;
+}
+
+li{
+ color: black;
+}
+
+li img {
+ width:100% ;
+    height: 100%;
+    
+}
 
