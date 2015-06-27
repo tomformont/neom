@@ -13,8 +13,10 @@
   </head>
 
   <body>
-    <script type="text/javascript" src="photoFB.js"></script>
-    <script type="text/javascript" src="FBLogin.js"></script>
+      <script type="text/javascript" src="assets/jquery.js"></script>
+      <script type="text/javascript" src="assets/jquery.gridster.js" charster="utf-8"></script>
+      <script type="text/javascript" src="photoFB.js"></script>
+      <script type="text/javascript" src="FBLogin.js"></script>
  
         
  
@@ -68,7 +70,7 @@
                 $(function(){ //DOM Ready
                 $(".gridster ul").gridster({
                     widget_margins: [10, 10], 
-					   widget_base_dimensions: [60, 60],
+					   widget_base_dimensions: [100, 100],
 					   min_cols: 2
                 })
             gridster = $(".gridster ul").gridster().data('gridster');
