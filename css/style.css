@@ -481,11 +481,11 @@ nav .drop-down li:first-child a:after {
 
 li{
  color: black;
+ overflow: hidden;
 }
 
 li img {
- width:100% ;
     height: 100%;
-    
+
 }
 
